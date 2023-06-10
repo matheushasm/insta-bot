@@ -61,5 +61,5 @@ It is important to use Insta-Bot responsibly. Excessive or abusive use of automa
 # Contribution
 If you would like to contribute to this project, feel free to open a pull request. We welcome suggestions for improvements and new features.
 
-License
-This project is licensed under the MIT License.
+# License
+This project is licensed under the <b>MIT</b> License.
