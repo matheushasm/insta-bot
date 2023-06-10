@@ -1,5 +1,5 @@
 const unsplash = require('../services/Unsplash');
-const { getPhoto } = require('../services/Pexels');
+const pexels = require('../services/Pexels');
 const { createDescription } = require('../services/OpenAI');
 const { getImageBuffer, postToInsta } = require('../services/Instagram');
 
@@ -14,7 +14,7 @@ const instaPost = async (
     try {
        // Get Image
        //const photo = await unsplash.getPhoto(photoQuery);
-       const photo = await getPhoto(photoQuery);
+       const photo = await pexels.getPhoto(photoQuery);
 
        // Generate Description
        const caption = await createDescription(`${descriptionQuery}  (${encodeURIComponent(photo)})`) + '\n\r' + hashTags ;

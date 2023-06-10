@@ -4,12 +4,12 @@ const { instaPost } = require('./app/http/controller/InstaBotController');
 
 const accounts = {
     yourInstagramAccount_1: {
-        username: process.env.SKYLINE_INSTAGRAM_USERNAME,
-        password: process.env.SKYLINE_INSTAGRAM_PASSWORD,
+        username: process.env.FIRST_INSTAGRAM_USERNAME,
+        password: process.env.FIRST_INSTAGRAM_PASSWORD,
     },
     yourInstagramAccount_2: {
-        username: process.env.SHAPE_INSTAGRAM_USERNAME,
-        password: process.env.SHAPE_INSTAGRAM_PASSWORD,
+        username: process.env.SECOND_INSTAGRAM_USERNAME,
+        password: process.env.SECOND_INSTAGRAM_PASSWORD,
     }
 };
 
