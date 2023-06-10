@@ -14,8 +14,7 @@ const accounts = {
 };
 
 
-
-cron.schedule(' * * 6 * * * ', () => {
+cron.schedule(' * * * * * * ', () => {
 
     instaPost( 
         accounts.yourInstagramAccount_1,
@@ -28,5 +27,6 @@ cron.schedule(' * * 6 * * * ', () => {
         accounts.yourInstagramAccount_2,
         'Photo Query here', 
         'Description query here', 
-        'Hashtags post here',    );
+        'Hashtags post here',    
+    );
 })
